@@ -1,0 +1,6 @@
+# dsh-wayfinder-ui 组合包补丁：把 wayfinder 工具插件行插入 profile。
+# 两个模型工具 + 内嵌地图面板；spawn 出的会话默认继承发起会话的模型路由
+# （provider/model），除非在 wayfinder_spawn_session 调用中用可选参数覆盖。
+- insert:
+    - id: wayfinder
+      name: 'dsh-wayfinder-ui'
