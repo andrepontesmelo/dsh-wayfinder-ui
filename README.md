@@ -1,8 +1,11 @@
 # dsh-wayfinder-ui
 
+[![CI](https://github.com/andrepontesmelo/dsh-wayfinder-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/andrepontesmelo/dsh-wayfinder-ui/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/github/package-json/v/andrepontesmelo/dsh-wayfinder-ui/main?label=version)](package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Node >=22](https://img.shields.io/badge/node-%3E%3D22-brightgreen.svg)](#prerequisites)
 [![DSH plugin](https://img.shields.io/badge/DSH-plugin-blue.svg)](https://github.com/andrepontesmelo/dsh-wayfinder-ui)
+![local gate](https://img.shields.io/badge/local%20gate-106%20tests-brightgreen)
 
 A tracker-agnostic [Wayfinder](https://github.com/deepseek-ai/dsh) runner plugin for [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/dsh): every new session learns a three-verb registration contract, maps live in a per-workspace registry file at `.wayfinder-runner/state.json` (committed), and the UI polls `/dsh-wayfinder/state.json`.
 
